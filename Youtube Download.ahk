@@ -8,7 +8,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 Send,^l
 Sleep,100
 Send,^c
-Sleep,300
+Sleep,100
 Send,^t
 Sleep,300
 Send,https://ytmp3.cc/en/
@@ -17,9 +17,9 @@ Sleep,1000
 Send,^v				
 Sleep,100
 Send,{tab}
-Sleep,500
+Sleep,100
 Send, {enter}
-Sleep,1000
+Sleep,1500
 Send,{tab}
 Sleep,100
 Send, {enter}
